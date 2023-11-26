@@ -109,3 +109,4 @@ print('Марки машин після апгрейду всіх клієнті
 cursor.execute("SELECT car FROM client")
 print(cursor.fetchall())
 
+conn.close()
